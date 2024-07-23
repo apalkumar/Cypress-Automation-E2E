@@ -1,0 +1,22 @@
+{
+  "name": "cypress-automation-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apalkumar/Cypress-Automation-E2E.git"
+  },
+  "author": "Anil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apalkumar/Cypress-Automation-E2E/issues"
+  },
+  "homepage": "https://github.com/apalkumar/Cypress-Automation-E2E#readme",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
