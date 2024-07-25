@@ -1,5 +1,5 @@
 
-name: Regression
+name: Regression E2E Test
 on: push
 jobs:
   cypress-run:
@@ -13,8 +13,9 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:addToCart
+
       - name: Cypress Test run report
         uses: actions/upload-artifact@v4
         with:
-          name: MochawesomeReport
+          name: Mochawesome HTML Report
           path: cypress/reports/html
