@@ -17,7 +17,7 @@ jobs:
   Reg-Flow-run:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout
+      - name: Checkout1
         uses: actions/checkout@v4
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
