@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:addToCartTest": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
+    "test:registerTest": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/apalkumar/Cypress-Automation-E2E#readme",
   "devDependencies": {
-    "cypress": "^13.13.1"
+    "cypress": "^13.13.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }

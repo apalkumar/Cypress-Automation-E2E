@@ -1,0 +1,13 @@
+{
+    "login": {
+        "username": "hello@cypress.io",
+        "password": "abc@123"
+    },
+    "product": {
+        "productName": "MacBook"
+    },
+    "message":
+    {
+        "successMessage": "Success: You have added"
+    }
+}
