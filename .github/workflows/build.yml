@@ -13,9 +13,3 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:addToCart
-
-      - name: Cypress Test run report
-        uses: actions/upload-artifact@v2
-        with:
-          name: Mochawesome HTML Report
-          path: cypress/reports/html
