@@ -5,17 +5,17 @@ jobs:
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout4
+      - name: Checkout
         uses: actions/checkout@v4
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          command: npm run test:addToCart
-      - name: Cypress Test run report1
+            command: npm run test:addToCart
+      - name: Cypress Test run report -1
         if: always()
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
-          name: Mochawesome HTML Report
+          name: Mochawesome HTML Report -1
           path: cypress/reports/html
